@@ -1,9 +1,30 @@
 aid: paraglide
 name: Paraglide
-description: 'Paraglide is a company surfaced as a portfolio company of bessemer-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: ai-ml. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: >-
+  Paraglide is a British-Swedish AI company building autonomous agents that
+  automate accounts receivable for high-volume B2B finance teams. Its agents
+  handle two-way billing communication across the order-to-cash lifecycle:
+  answering customer billing questions, chasing overdue invoices, resolving
+  disputes and deductions, running collections, operating a supplier portal, and
+  applying cash — integrating with ERPs, CRMs, and billing software to cut Days
+  Sales Outstanding and improve cash flow. Founded in 2025 by Rasmus Areskoug and
+  Andreas Astrom with offices in London and Malmo, Paraglide raised a $5M seed
+  round led by Bessemer Venture Partners and DN Capital in January 2026. As of
+  this profile the company is a product/agent platform with no public developer
+  API, SDK, or documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/paraglide/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/images/dh9pNs5aGY7X2qS02RjboeDKu2U.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Ai Ml
+- AI Agents
+- Accounts Receivable
+- Fintech
+- Finance Automation
+- Collections
+- Order To Cash
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,19 @@ maintainers:
 common:
 - type: Website
   url: https://www.paraglide.ai/
+- type: Blog
+  url: https://www.paraglide.ai/blog
+- type: PrivacyPolicy
+  url: https://www.paraglide.ai/legals/privacy-policy
+- type: TermsOfService
+  url: https://www.paraglide.ai/legals/terms-and-conditions
+- type: TrustCenter
+  url: https://trust.paraglide.ai/
+- type: TrustCenter
+  name: Trust center profile
+  url: security/paraglide-trust-center.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

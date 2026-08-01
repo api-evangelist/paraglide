@@ -1,0 +1,18 @@
+generated: '2026-07-20'
+method: searched
+probe: true
+url: https://trust.paraglide.ai/
+platform: Vanta Trust Center
+certifications: []
+notes: >-
+  Paraglide operates a public Vanta-hosted Trust Center at trust.paraglide.ai
+  (the site's "Security & data protection" link 308-redirects to it). The page is
+  a Vanta single-page app; named certifications (e.g. SOC 2, ISO 27001) could not
+  be extracted server-side and were not otherwise verifiable as of this pass, so
+  none are asserted here. The company was incorporated July 2025 and raised its
+  seed round in January 2026, so any formal attestations are likely early-stage.
+evidence:
+  - source: https://trust.paraglide.ai/
+    keywords: [trust center, security, compliance, vanta]
+  - source: https://www.paraglide.ai/legals/security-data-protection-overview
+    kind: redirect-to-trust-center
